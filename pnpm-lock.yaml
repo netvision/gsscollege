@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.5.2
     version: 0.5.2(tailwindcss@3.1.6)
   '@tailwindcss/typography':
-    specifier: ^0.5.4
-    version: 0.5.4(tailwindcss@3.1.6)
+    specifier: ^0.5.12
+    version: 0.5.12(tailwindcss@3.1.6)
   '@types/node':
     specifier: ^18.0.4
     version: 18.0.4
@@ -1590,14 +1590,15 @@ packages:
       tailwindcss: 3.1.6(postcss@8.4.14)
     dev: false
 
-  /@tailwindcss/typography@0.5.4(tailwindcss@3.1.6):
-    resolution: {integrity: sha512-QEdg40EmGvE7kKoDei8zr5sf4D1pIayHj4R31bH3lX8x2BtTiR+jNejYPOkhbmy3DXgkMF9jC8xqNiGFAuL9Sg==}
+  /@tailwindcss/typography@0.5.12(tailwindcss@3.1.6):
+    resolution: {integrity: sha512-CNwpBpconcP7ppxmuq3qvaCxiRWnbhANpY/ruH4L5qs2GCiVDJXde/pjj2HWPV1+Q4G9+V/etrwUYopdcjAlyg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
+      postcss-selector-parser: 6.0.10
       tailwindcss: 3.1.6(postcss@8.4.14)
     dev: false
 
@@ -5316,6 +5317,7 @@ packages:
 
   /workbox-google-analytics@6.5.3:
     resolution: {integrity: sha512-3GLCHotz5umoRSb4aNQeTbILETcrTVEozSfLhHSBaegHs1PnqCmN0zbIy2TjTpph2AGXiNwDrWGF0AN+UgDNTw==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.3
       workbox-core: 6.5.3
