@@ -2,7 +2,7 @@
 	import { useStore } from '@/store';
 	import VitailseLogo from '@/assets/logo.png';
 	useHead({
-		title: 'Vitailse | Opinionated vite starter template',
+		title: 'GSS Girls PG College, Chirawa',
 	});
 
 	const store = useStore();
