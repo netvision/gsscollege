@@ -6,6 +6,7 @@
 
 <template>
 	<div>
+		<p>GSS</p>
 		<p>{{ $t('pages.other.desc') }}</p>
 		<router-link
 			:to="{ name: 'home' }"
